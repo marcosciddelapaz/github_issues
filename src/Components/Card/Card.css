@@ -1,0 +1,16 @@
+.results {
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: #44197e;
+    background-color: rgb(240, 240, 240);
+    margin: 0.5em;
+    width: 70vw;
+    padding: 1em;
+}

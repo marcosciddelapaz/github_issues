@@ -1,0 +1,17 @@
+.searchBar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    
+}
+
+input {
+    border-radius: 4px;
+        width: 70vw;
+        height: 2em;
+        border-width: thin;
+        
+}
+
+
+
