@@ -14,3 +14,11 @@
     width: 70vw;
     padding: 1em;
 }
+
+.card p {
+    text-align: justify;
+}
+
+.card a {
+    color: #44197e;
+}

@@ -8,12 +8,13 @@ const Card = (props) => {
     const issuesList = issues.length !== 0 ? (
          issues.data.items.map((issue) => (
             <Fragment>
-                 <a href={issue.url}>
-                    <div className="card" key= {issue.id}>
-                        <h3>{issue.title}</h3>
-                        <p>{issue.url}</p>
+                 
+                    <div className="card" key={issue.id}>
+                        <h4>{issue.title}</h4>
+                        <p>{issue.body.substring(0, 240).concat("...")}</p>
+                        <a href={issue.url} target="_blank"><p>Read more</p></a>
                     </div>
-                </a>
+                
             </Fragment>
         ))
     ): (
